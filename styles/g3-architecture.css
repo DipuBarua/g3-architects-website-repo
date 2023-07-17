@@ -219,6 +219,18 @@
     .sponspors-logo>img {
         width: 165px;
     }
+    /* footer section start  */
+    
+    .copy-right {
+        border-radius: 8px;
+        background: #FFF4E7;
+        color: #424242;
+        text-align: center;
+        font-size: 1.25rem;
+        font-weight: 400;
+        padding: 40px 300px;
+        margin: 130px 200px;
+    }
     /* responsive using media query  */
     /* mobile screen  */
     
@@ -253,6 +265,10 @@
             max-width: 330px;
             position: static;
         }
+        .copy-right {
+            padding: 40px;
+            margin: 20px;
+        }
     }
     /* tablet screen  */
     
@@ -274,5 +290,9 @@
         .experience img {
             width: 100%;
             margin: 0;
+        }
+        .copy-right {
+            padding: 40px;
+            margin: 100px;
         }
     }
